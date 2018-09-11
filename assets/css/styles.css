@@ -2,3 +2,23 @@ body {
     background:#ffa;
     font-size:30px;
 }
+
+img {
+    width: 200px;
+}
+
+.small {
+    width: 200px;
+}
+
+.medium {
+    width: 400px;
+}
+
+.header{
+    background #00ff00;
+}
+
+.purple{
+    background: #B200FF;
+}
