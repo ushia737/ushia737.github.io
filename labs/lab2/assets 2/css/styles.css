@@ -1,24 +1,17 @@
 body {
-    background:#ffa;
-    font-size:30px;
+    background: #f00;
+    margin: 0;
 }
 
-img {
-    width: 200px;
+.column {
+    background: #ff0;
+    width: 130px;
+    margin: 0 15px 0 15px;
+    display: inline-block;
 }
 
-.small {
-    width: 200px;
-}
-
-.medium {
-    width: 400px;
-}
-
-.header{
-    background:#0f0;
-}
-
-.purple{
-    background: #b200ff;
+.wrapper {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    background: #0f0;
 }
