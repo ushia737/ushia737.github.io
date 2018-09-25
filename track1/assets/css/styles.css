@@ -1,16 +1,29 @@
 .header{
-    background: #e8d4a7;
-    font-size:35px;
+    color: #fff;
+    margin: 50px 0 0 0;
+    font-size:30px;
+}
+
+body {
+    background: #000;
 }
 
 .name {
     background: #c4dcef;
 }
 
-body {
-    font-size: 20px;
-}
+.sun img {width: 500px; margin: 75px 0 250px 0}
+.mercury img {width: 125px; margin: 0 0 200px 0}
+.venus img {width: 300px; margin: 0 0 200px 0}
+.earth img {width: 245px; margin: 0 0 200px 0} 
+.mars img {width: 175px; margin: 0 0 300px 0}
+.jupiter img {width: 550px; margin: 0 0 300px 0}
+.saturn img {width: 700px; margin: 0 0 300px 0}
+.uranus img {width: 400px; margin: 0 0 350px 0}
+.neptune img {width: 375px; margin: 0 0 400px 0}
+.pluto img {width: 150px; margin: 0 0 300px 0}
 
 .footer {
-    background: #e8a7a7;
+    color: #fff;
 }
+
