@@ -1,19 +1,31 @@
 * {box-sizing: border-box;}
 
+.html {
+  background: url("assets/img/d.jpg");
+}
+
 body {
   background: #000000;
   font-size: 15px;
   background-image: url("a.jpg");
 }
 
+.img {
+
+}
+
 .title {
-  background: #3c74c9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 30px;
-  color: #fff;
+  color: #e0d974;
 }
 
 img {
   width: 500px;
+  margin: 215px 0 0 0;
 }
 
 .content {
@@ -21,11 +33,16 @@ img {
 }
 
 .desc {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 12px;
-  color: #aec4e5;
+  color: #a0a0a0;
 }
 
 .tracks {
+  margin: 400px 0 0 0;
   color: #fff;
 }
 
