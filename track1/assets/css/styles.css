@@ -1,29 +1,52 @@
-.header{
+body {background: rgb(226, 105, 89);}
+
+.ram1 {
+    position: relative;
+    position: fixed;
+    color: rgb(235, 224, 78);
+    font-size: 130px;
+}
+
+.ram2 {
+    position: relative;
+    position: fixed;
     color: #fff;
-    margin: 50px 0 0 0;
-    font-size:30px;
+    font-size: 128px;
 }
 
-body {
-    background: #000;
+.ram01 {
+    position: absolute;
+    width: 700px;
+    top: 175px;
+    left:260px;
 }
 
-.name {
-    background: #c4dcef;
+.dwight {
+    position: static;
+    margin: 300px 1300px 0 0px;
+    top: 300px;
+    left: 100px;
 }
 
-.sun img {width: 500px; margin: 75px 0 250px 0}
-.mercury img {width: 125px; margin: 0 0 200px 0}
-.venus img {width: 300px; margin: 0 0 200px 0}
-.earth img {width: 245px; margin: 0 0 200px 0} 
-.mars img {width: 175px; margin: 0 0 300px 0}
-.jupiter img {width: 550px; margin: 0 0 300px 0}
-.saturn img {width: 700px; margin: 0 0 300px 0}
-.uranus img {width: 400px; margin: 0 0 350px 0}
-.neptune img {width: 375px; margin: 0 0 400px 0}
-.pluto img {width: 150px; margin: 0 0 300px 0}
+.conan {
+    position: static;
+    margin: -900px 0 100px 900px;
+}
+.joey {
+    margin: -450px 0px 600px 600px;
+    position: static;
+}
 
-.footer {
+.ladybird {
+    margin: 0 0 50px 0px;
+    position: static;
+}
+
+.highenergy {
+    margin: -450px 0px 0px 325px;
+    position: static;
+}
+
+poem {
     color: #fff;
 }
-

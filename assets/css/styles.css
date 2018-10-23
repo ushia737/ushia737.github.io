@@ -10,17 +10,13 @@ body {
   background-image: url("a.jpg");
 }
 
-.img {
-
-}
-
 .title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 30px;
-  color: #e0d974;
+  color: #fce48f;
 }
 
 img {
@@ -34,7 +30,7 @@ img {
 
 .desc {
   position: absolute;
-  top: 75%;
+  top:80%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 12px;
@@ -48,4 +44,13 @@ img {
 
 .labs {
   color: #fff;
+}
+
+.text {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  color: #dbdbdb;
 }

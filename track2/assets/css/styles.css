@@ -1,0 +1,16 @@
+body {
+  background: rgb(127, 212, 78);
+}
+
+.png {
+  position: fixed;
+  margin: 250px 0px 0 600px;
+}
+.money {
+  margin: 200px 0 0 0;
+}
+
+.text {
+  color: #ffe6e6;
+  margin: 200px 0 0 0;
+}
