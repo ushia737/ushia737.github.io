@@ -1,56 +1,121 @@
 * {box-sizing: border-box;}
 
-.html {
-  background: url("assets/img/d.jpg");
-}
-
 body {
-  background: #000000;
-  font-size: 15px;
-  background-image: url("a.jpg");
+  background: #5753D0;
 }
 
-.title {
+.flash1 {
+  position: fixed;
+  right: 22.75%;
+  top: 10%;
+  width: 100px;
+}
+
+.flash2 {
+  position: fixed;
+  left: 24.25%;
+  top: 21.5%;
+  width: 100px;
+}
+
+.title1 {
   position: absolute;
-  top: 50%;
+  top: 23%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
-  color: #fce48f;
+  font-size: 44px;
+  line-height:10px;
+  color: #F6BC4F;
 }
 
-img {
-  width: 500px;
-  margin: 215px 0 0 0;
+.title2 {
+  position: absolute;
+  top: 23.4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 44px;
+  line-height:10px;
+  color: #fff;
 }
-
-.content {
-  width: 200px;
+.title3 {
+  position: absolute;
+  top: 22.6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 44px;
+  line-height:10px;
+  color: #8A8A8A;
 }
 
 .desc {
-  position: absolute;
-  top:80%;
+  position: relative;
   left: 50%;
+  margin: 80px 0 0 0;
   transform: translate(-50%, -50%);
-  font-size: 12px;
-  color: #a0a0a0;
+  font-size: 14px;
+  line-height: 5px;
+  color: #F6BC4F;
 }
 
-.tracks {
-  margin: 400px 0 0 0;
+.box1 {
+  position: relative;
+  margin:330px 0 0 0;
+  width: 120px;
+  height: 50px;
+  background:#F29B61;
+}
+
+.box2 {
+  margin:-45px 0px 0 10px;
+  width: 120px;
+  height: 50px;
+  background:#Fff;
+}
+
+.text1 {
+  position: absolute;
+  left: 48.5%;
+  z-index:1;
+  margin: 0px 0 0 0;
   color: #fff;
+}
+.text2 {
+  font-size: 12px;
+  color: #fff;
+}
+
+.flames1 {
+  position: fixed;
+  bottom:0%;
+  width: 560px;
+  margin: 0px 0 -50px -10px;
+}
+
+.flames2 {
+  position: fixed;
+  bottom:0%;
+  width: 560px;
+  margin: 0px 0 -50px 300px;
+}
+
+.flames3 {
+  position: fixed;
+  bottom:0%;
+  width: 560px;
+  margin: 0px 0 -50px 820px;
+}
+
+.flames4 {
+  position: fixed;
+  bottom:0%;
+  width: 560px;
+  margin: 0px 0 -50px 1120px;
 }
 
 .labs {
-  color: #fff;
-}
-
-.text {
-  position: absolute;
-  top: 72%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 15px;
-  color: #dbdbdb;
+  position: fixed;
+  left: 49.25%;
+  top: 78%;
+  color: #F6BC4F;
+  font-size: 12px;
 }
