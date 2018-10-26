@@ -4,6 +4,8 @@ body {
   background: #5753D0;
 }
 
+
+
 .flash1 {
   position: fixed;
   right: 22.75%;
@@ -115,7 +117,24 @@ body {
 .labs {
   position: fixed;
   left: 49.25%;
-  top: 78%;
+  top: 72%;
   color: #F6BC4F;
   font-size: 12px;
 }
+a.begintext {color: #fff}
+a.begintext:link {color: rgb(255, 255, 255);}
+a.begintext:visited {color: #fff;}
+a.begintext:hover {color: #fff;}
+a.begintext:active {color: #fff;}
+
+a.choosetext {color: #fff}
+a.choosetext:link {color: rgb(255, 255, 255);}
+a.choosetext:visited {color: #fff;}
+a.choosetext:hover {color: #fff;}
+a.choosetext:active {color: #fff;}
+
+a.labstext {color: #F6BC4F}
+a.labstext:link {color: #F6BC4F;}
+a.labstext:visited {color: #F6BC4F;}
+a.labstext:hover {color: #F6BC4F;}
+a.labstext:active {color: #F6BC4F;}
