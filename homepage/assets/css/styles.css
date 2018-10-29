@@ -200,6 +200,106 @@ body {
   bottom: 1%;
 }
 
+.flames1 {
+  position: absolute;
+  top: 15%;
+  left: 3.25%;
+  width: 180px;
+  z-index: -1;
+}
+
+.flames2 {
+  position: absolute;
+  top: 24.5%;
+  left: 3.5%;
+  width: 245px;
+  z-index: -1;
+}
+
+.flames3 {
+  position: absolute;
+  top: 37.25%;
+  left: 3.5%;
+  width: 237px;
+  z-index: -1;
+}
+
+.flames4 {
+  position: absolute;
+  top: 49.5%;
+  left: 3.7%;
+  width: 245px;
+  z-index: -1;
+}
+
+.flames5 {
+  position: absolute;
+  top: 67%;
+  left: 3.25%;
+  width: 115px;
+  height: 70px;
+  z-index: -1;
+}
+
+.flames6 {
+  position: absolute;
+  top: 76.5%;
+  left: 4%;
+  width: 200px;
+  z-index: -1;
+}
+
+.flames7 {
+  position: absolute;
+  top: 15%;
+  right: 3.5%;
+  width: 170px;
+  z-index: -1;
+}
+
+.flames8 {
+  position: absolute;
+  top: 23%;
+  right: 3.7%;
+  width: 260px;
+  z-index: -1;
+}
+
+.flames9 {
+  position: absolute;
+  top: 36%;
+  right: 3.5%;
+  width: 370px;
+  height: 140px;
+  z-index: -1;
+}
+
+.flames10 {
+  position: absolute;
+  top: 47.5%;
+  right: 3.5%;
+  width: 366px;
+  height: 150px;
+  z-index: -1;
+}
+
+.flames11 {
+  position: absolute;
+  top: 60%;
+  right: 3.5%;
+  width: 330px;
+  height: 150px;
+  z-index: -1;
+}
+
+.flames12 {
+  position: absolute;
+  top: 76.75%;
+  right: 3.5%;
+  width: 200px;
+  z-index: -1;
+}
+
 
 a.hometext {color: #73716E}
 a.hometext:link {color: #73716E;}
