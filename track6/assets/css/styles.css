@@ -1,0 +1,53 @@
+* {box-sizing: border-box;}
+body {
+  font-family: "futura", sans-serif;
+  width: 600px;
+  margin: -200px 0 1000px 540px;
+}
+
+.oh {
+  font-size: 400px;
+  margin: 0 0 0px 0;
+}
+
+.shoot {
+  font-size: 20px;
+  margin: 0 0 0 0;
+}
+
+.stick1 {
+  position: sticky;
+  top: 0;
+	background-color: #FF7350;
+}
+
+.stick2 {
+  position: sticky;
+  top: 0;
+	background-color: #FFC050;
+}
+
+.stick3 {
+  position: sticky;
+  top: 0;
+	background-color: #FFE650;
+}
+
+.stick4 {
+  position: sticky;
+  top: 0;
+	background-color: #A4FF50;
+}
+
+.stick5 {
+  position: sticky;
+  top: 0;
+	background-color: #50FFAB;
+}
+
+.stick6 {
+  position: sticky;
+  top: 0;
+	background-color: #50FFFF;
+}
+
