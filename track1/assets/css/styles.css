@@ -1,52 +1,81 @@
-body {background: rgb(226, 105, 89);}
+* {box-sizing: border-box;}
 
-.ram1 {
-    position: relative;
-    position: fixed;
-    color: rgb(235, 224, 78);
-    font-size: 130px;
+body {
+    text-align: center;
+    background-color: #FF7350;
 }
 
-.ram2 {
-    position: relative;
-    position: fixed;
+.header {
     color: #fff;
-    font-size: 128px;
+    font-family: 'futura' , sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    word-wrap: break-word;
+    max-width: 650px;
+    margin: 200px 0 0 0;
 }
 
-.ram01 {
-    position: absolute;
-    width: 700px;
-    top: 175px;
-    left:260px;
+label {
+    display: block;
+    font: 1rem 'georgia', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #F6BC4F;
 }
 
-.dwight {
-    position: static;
-    margin: 300px 1300px 0 0px;
-    top: 300px;
-    left: 100px;
+input,
+label {
+    margin: .4rem 0;
 }
 
-.conan {
-    position: static;
-    margin: -900px 0 100px 900px;
-}
-.joey {
-    margin: -450px 0px 600px 600px;
-    position: static;
+.note {
+    font-size: .8em;
 }
 
-.ladybird {
-    margin: 0 0 50px 0px;
-    position: static;
+.before {
+    position: fixed;
+    left: 1%;
+    bottom: 1%;
+    z-index: -1;
+    color: #F6BC4F;
+    font-family: 'futura', sans-serif;
+    font-size: 18px;
 }
 
-.highenergy {
-    margin: -450px 0px 0px 325px;
-    position: static;
+.all {
+    position: fixed;
+    left: 50%;
+    bottom: 1%;
+    z-index: -1;
+    color: #F6BC4F;
+    font-family: 'futura', sans-serif;
+    font-size: 18px;
 }
 
-poem {
-    color: #fff;
+.next {
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    z-index: -1;
+    color: #F6BC4F;
+    font-family: 'futura', sans-serif;
+    font-size: 18px;
 }
+
+a.beforetext {color: #F6BC4F}
+a.beforetext:link {color: #F6BC4F;}
+a.beforetext:visited {color: #F6BC4F;}
+a.beforetext:hover {color: #fff;}
+a.beforetext:active {color: #F6BC4F;}
+
+a.alltext {color: #F6BC4F}
+a.alltext:link {color: #F6BC4F;}
+a.alltext:visited {color: #F6BC4F;}
+a.alltext:hover {color: #fff;}
+a.alltext:active {color: #F6BC4F;}
+
+a.nexttext {color: #F6BC4F}
+a.nexttext:link {color: #F6BC4F;}
+a.nexttext:visited {color: #F6BC4F;}
+a.nexttext:hover {color: #fff;}
+a.nexttext:active {color: #F6BC4F;}

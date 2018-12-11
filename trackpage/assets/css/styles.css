@@ -1,0 +1,386 @@
+* {box-sizing: border-box;}
+
+body {
+  background: #FFC050;
+}
+
+.home{
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  font-size: 20px;
+}
+
+.aries1{
+  position: absolute;
+  font-size: 60px;
+  top:10.5%;
+  left: 3.25%;
+  color: #73716E;
+}
+
+.aries2{
+  position: absolute;
+  font-size: 60px;
+  top: 10%;
+  left: 3%;
+}
+
+.taurus1{
+  position: absolute;
+  font-size: 60px;
+  top:23%;
+  left: 3.25%;
+  color: #73716E;
+}
+
+.taurus2{
+  position: absolute;
+  font-size: 60px;
+  top: 22.5%;
+  left: 3%;
+}
+
+.gemini1{
+  position: absolute;
+  font-size: 60px;
+  top:35.5%;
+  left: 3.25%;
+  color: #73716E;
+}
+
+.gemini2{
+  position: absolute;
+  font-size: 60px;
+  top: 35%;
+  left: 3%;
+}
+
+.cancer1{
+  position: absolute;
+  font-size: 60px;
+  top:48%;
+  left: 3.25%;
+  color: #73716E;
+}
+
+.cancer2{
+  position: absolute;
+  font-size: 60px;
+  top: 47.5%;
+  left: 3%;
+}
+
+.leo1{
+  position: absolute;
+  font-size: 60px;
+  top:60.5%;
+  left: 3.25%;
+  color: #73716E;
+}
+
+.leo2{
+  position: absolute;
+  font-size: 60px;
+  top: 60%;
+  left: 3%;
+}
+
+.virgo1{
+  position: absolute;
+  font-size: 60px;
+  top:73%;
+  left: 3.25%;
+  color: #73716E;
+}
+
+.virgo2{
+  position: absolute;
+  font-size: 60px;
+  top: 72.5%;
+  left: 3%;
+}
+
+.libra1{
+  position: absolute;
+  float: right;
+  font-size: 60px;
+  top: 10.5%;
+  right: 3%;
+  color: #73716E;
+}
+
+.libra2{
+  position: absolute;
+  float: right;
+  font-size: 60px;
+  top: 10%;
+  right: 3.25%;
+}
+
+.scorpio1{
+  position: absolute;
+  font-size: 60px;
+  top:23%;
+  right: 3%;
+  color: #73716E;
+}
+
+.scorpio2{
+  position: absolute;
+  font-size: 60px;
+  top: 22.5%;
+  right: 3.25%;
+}
+
+.sag1{
+  position: absolute;
+  font-size: 60px;
+  top:35.5%;
+  right: 3%;
+  color: #73716E;
+}
+
+.sag2{
+  position: absolute;
+  font-size: 60px;
+  top: 35%;
+  right: 3.25%;
+}
+
+.cap1{
+  position: absolute;
+  font-size: 60px;
+  top:48%;
+  right: 3%;
+  color: #73716E;
+}
+
+.cap2{
+  position: absolute;
+  font-size: 60px;
+  top: 47.5%;
+  right: 3.25%;
+}
+
+.aqua1{
+  position: absolute;
+  font-size: 60px;
+  top:60.5%;
+  right: 3%;
+  color: #73716E;
+}
+
+.aqua2{
+  position: absolute;
+  font-size: 60px;
+  top: 60%;
+  right: 3.25%;
+}
+
+.pisces1{
+  position: absolute;
+  font-size: 60px;
+  top:73%;
+  right: 3%;
+  color: #73716E;
+}
+
+.pisces2{
+  position: absolute;
+  font-size: 60px;
+  top: 72.5%;
+  right: 3.25%;
+}
+
+.labs{
+  position: absolute;
+  font-size: 20px;
+  left: 50%;
+  bottom: 1%;
+}
+
+.flames1 {
+  position: absolute;
+  top: 15%;
+  left: 3.25%;
+  width: 180px;
+  z-index: -1;
+}
+
+.flames2 {
+  position: absolute;
+  top: 24.5%;
+  left: 3.5%;
+  width: 245px;
+  z-index: -1;
+}
+
+.flames3 {
+  position: absolute;
+  top: 37.25%;
+  left: 3.5%;
+  width: 237px;
+  z-index: -1;
+}
+
+.flames4 {
+  position: absolute;
+  top: 49.5%;
+  left: 3.7%;
+  width: 245px;
+  z-index: -1;
+}
+
+.flames5 {
+  position: absolute;
+  top: 67%;
+  left: 3.25%;
+  width: 115px;
+  height: 70px;
+  z-index: -1;
+}
+
+.flames6 {
+  position: absolute;
+  top: 76.5%;
+  left: 4%;
+  width: 200px;
+  z-index: -1;
+}
+
+.flames7 {
+  position: absolute;
+  top: 15%;
+  right: 3.5%;
+  width: 170px;
+  z-index: -1;
+}
+
+.flames8 {
+  position: absolute;
+  top: 23%;
+  right: 3.7%;
+  width: 260px;
+  z-index: -1;
+}
+
+.flames9 {
+  position: absolute;
+  top: 36%;
+  right: 3.5%;
+  width: 370px;
+  height: 140px;
+  z-index: -1;
+}
+
+.flames10 {
+  position: absolute;
+  top: 47.5%;
+  right: 3.5%;
+  width: 366px;
+  height: 150px;
+  z-index: -1;
+}
+
+.flames11 {
+  position: absolute;
+  top: 60%;
+  right: 3.5%;
+  width: 330px;
+  height: 150px;
+  z-index: -1;
+}
+
+.flames12 {
+  position: absolute;
+  top: 76.75%;
+  right: 3.5%;
+  width: 200px;
+  z-index: -1;
+}
+
+
+a.hometext {color: #73716E}
+a.hometext:link {color: #73716E;}
+a.hometext:visited {color: #73716E;}
+a.hometext:hover {color: #73716E;}
+a.hometext:active {color: #73716E;}
+
+a.labstext {color: #73716E}
+a.labstext:link {color: #73716E;}
+a.labstext:visited {color: #73716E;}
+a.labstext:hover {color: #73716E;}
+a.labstext:active {color: #73716E;}
+
+a.ariestext {color: #fff}
+a.ariestext:link {color: #fff;}
+a.ariestext:visited {color: #fff;}
+a.ariestext:hover {color:#FFC050;}
+a.ariestext:active {color: #fff;}
+
+a.taurustext {color: #fff}
+a.taurustext:link {color: #fff;}
+a.taurustext:visited {color: #fff;}
+a.taurustext:hover {color:#FFC050;}
+a.taurustext:active {color: #fff;}
+
+a.geminitext {color: #fff}
+a.geminitext:link {color: #fff;}
+a.geminitext:visited {color: #fff;}
+a.geminitext:hover {color:#FFC050;}
+a.geminitext:active {color: #fff;}
+
+a.cancertext {color: #fff}
+a.cancertext:link {color: #fff;}
+a.cancertext:visited {color: #fff;}
+a.cancertext:hover {color:#FFC050;}
+a.cancertext:active {color: #fff;}
+
+a.leotext {color: #fff}
+a.leotext:link {color: #fff;}
+a.leotext:visited {color: #fff;}
+a.leotext:hover {color:#FFC050;}
+a.leotext:active {color: #fff;}
+
+a.virgotext {color: #fff}
+a.virgotext:link {color: #fff;}
+a.virgotext:visited {color: #fff;}
+a.virgotext:hover {color:#FFC050;}
+a.virgotext:active {color: #fff;}
+
+a.libratext {color: #fff}
+a.libratext:link {color: #fff;}
+a.libratext:visited {color: #fff;}
+a.libratext:hover {color:#FFC050;}
+a.libratext:active {color: #fff;}
+
+a.scorpiotext {color: #fff}
+a.scorpiotext:link {color: #fff;}
+a.scorpiotext:visited {color: #fff;}
+a.scorpiotext:hover {color:#FFC050;}
+a.scorpiotext:active {color: #fff;}
+
+a.sagtext {color: #fff}
+a.sagtext:link {color: #fff;}
+a.sagtext:visited {color: #fff;}
+a.sagtext:hover {color:#FFC050;}
+a.sagtext:active {color: #fff;}
+
+a.captext {color: #fff}
+a.captext:link {color: #fff;}
+a.captext:visited {color: #fff;}
+a.captext:hover {color:#FFC050;}
+a.captext:active {color: #fff;}
+
+a.aquatext {color: #fff}
+a.aquatext:link {color: #fff;}
+a.aquatext:visited {color: #fff;}
+a.aquatext:hover {color:#FFC050;}
+a.aquatext:active {color: #fff;}
+
+a.piscestext {color: #fff}
+a.piscestext:link {color: #fff;}
+a.piscestext:visited {color: #fff;}
+a.piscestext:hover {color:#FFC050;}
+a.piscestext:active {color: #fff;}
