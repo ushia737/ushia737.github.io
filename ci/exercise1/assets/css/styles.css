@@ -1,0 +1,44 @@
+html, body{
+  background-color: black;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+ul{
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+ul li a,
+ul li a img {
+  display: block;
+  line-height: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.list_wrapper-bad a {
+  background-color: red;
+  }
+
+.list_wrapper-bad img:hover {
+  opacity: 0.5;
+}
+
+.list_wrapper-good a {
+  background-color: green;
+  }
+
+.list_wrapper-good img:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,63 @@
+body {
+  background:#eaa0ef;
+  color: #fff;
+}
+
+.cry1 {
+  position: fixed;
+  width: 300px;
+  top: 15%;
+  left: 20%;
+}
+.cry2 {
+  position: fixed;
+  width: 500px;
+  top: 30%;
+right: 32%;
+}
+
+.before {
+  position: fixed;
+  left: 1%;
+  bottom: 1%;
+  color: #F6BC4F;
+  font-family: 'futura', sans-serif;
+  font-size: 18px;
+}
+
+.all {
+  position: fixed;
+  left: 50%;
+  bottom: 1%;
+  color: #F6BC4F;
+  font-family: 'futura', sans-serif;
+  font-size: 18px;
+}
+
+.next {
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  color: #F6BC4F;
+  font-family: 'futura', sans-serif;
+  font-size: 18px;
+}
+
+a.beforetext {color: #F6BC4F}
+a.beforetext:link {color: #F6BC4F;}
+a.beforetext:visited {color: #F6BC4F;}
+a.beforetext:hover {color: #fff;}
+a.beforetext:active {color: #F6BC4F;}
+
+a.alltext {color: #F6BC4F}
+a.alltext:link {color: #F6BC4F;}
+a.alltext:visited {color: #F6BC4F;}
+a.alltext:hover {color: #fff;}
+a.alltext:active {color: #F6BC4F;}
+
+a.nexttext {color: #F6BC4F}
+a.nexttext:link {color: #F6BC4F;}
+a.nexttext:visited {color: #F6BC4F;}
+a.nexttext:hover {color: #fff;}
+a.nexttext:active {color: #F6BC4F;}
+

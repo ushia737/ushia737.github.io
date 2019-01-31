@@ -1,0 +1,50 @@
+* {box-sizing: border-box;}
+
+body {
+  background: #6850FF;
+}
+
+.name {
+  font-family: 'futura';
+  color: #fff;
+  font-size: 40px;
+}
+
+.comp {
+  margin: -50px 0 0 0;
+  font-family: 'georgia';
+  font-style: italic;
+  color: #f6bc4f;
+}
+
+.title {
+  margin: 100px 0 0 0;
+  font-size: 44px;
+  line-height: 44px;
+  color: #fff;
+  font-family: 'futura';
+  font-style: bold;
+  word-wrap: break-word;
+  max-width: 800px;
+}
+
+.labs {
+  margin: 100px 0 0 0;
+  font-family: "futura";
+  font-style: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+a.labstext {color: #F6BC4F}
+a.labstext:link {color: #F6BC4F;}
+a.labstext:visited {color: #fff;}
+a.labstext:hover {color: #fff;}
+a.labstext:active {color: #fff;}
+
+a.titletext {color: #fff}
+a.titletext:link {color: #fff;}
+a.titletext:visited {color: #fff;}
+a.titletext:hover {color: #F6BC4F;}
+a.titletext:active {color: #fff;}
