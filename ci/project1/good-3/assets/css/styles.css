@@ -1,0 +1,113 @@
+* {box-sizing: border-box;}
+
+body{
+  background-color: #FFF;
+}
+
+.design{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 125px;
+  width: 400px;
+  border: 20px solid #00ff00;
+  border-radius: 25px;
+}
+
+.good1{
+  position: absolute;
+  transition: transform .2s;
+  left: 3.25%;
+  top: 10.5%;
+}
+
+.good2{
+  position: absolute;
+  transition: transform .2s;
+  left: 3.25%;
+  top: 23%;
+}
+
+.good3{
+  position: absolute;
+  transition: transform .2s;
+  left: 3.25%;
+  top: 35.5%;
+}
+
+.good4{
+  position: absolute;
+  transition: transform .2s;
+  left: 3.25%;
+  top: 48%;
+}
+
+.good5{
+  position: absolute;
+  transition: transform .2s;
+  left: 3.25%;
+  top: 60.5%;
+}
+
+.good6{
+  position: absolute;
+  transition: transform .2s;
+  left: 3.25%;
+  top: 73%;
+}
+
+.bad1{
+  position: absolute;
+  transition: transform .2s;
+  right: 3.25%;
+  top: 10.5%;
+}
+
+.bad2{
+  position: absolute;
+  transition: transform .2s;
+  right: 3.25%;
+  top: 23%;
+}
+
+.bad3{
+  position: absolute;
+  transition: transform .2s;
+  right: 3.25%;
+  top: 35.5%;
+}
+
+.bad4{
+  position: absolute;
+  transition: transform .2s;
+  right: 3.25%;
+  top: 48%;
+}
+
+.bad5{
+  position: absolute;
+  transition: transform .2s;
+  right: 3.25%;
+  top: 60.5%;
+}
+
+.bad6{
+  position: absolute;
+  transition: transform .2s;
+  right: 3.25%;
+  top: 73%;
+}
+
+.good1:hover {transform: scale(1.25);}
+.good2:hover {transform: scale(1.25);}
+.good3:hover {transform: scale(1.25);}
+.good4:hover {transform: scale(1.25);}
+.good5:hover {transform: scale(1.25);}
+.good6:hover {transform: scale(1.25);}
+
+.bad1:hover {transform: scale(1.25);}
+.bad2:hover {transform: scale(1.25);}
+.bad3:hover {transform: scale(1.25);}
+.bad4:hover {transform: scale(1.25);}
+.bad5:hover {transform: scale(1.25);}
+.bad6:hover {transform: scale(1.25);}
